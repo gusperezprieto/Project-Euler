@@ -5,7 +5,7 @@ using System.Text;
 namespace Project_Euler.Problems
 {
     /// <summary>
-    /// Solution to Euler Project Problem 1
+    /// Solution to Euler Project Problem 2
     /// https://projecteuler.net/problem=2
     /// https://www.hackerrank.com/contests/projecteuler/challenges/euler002
     /// 
@@ -46,7 +46,7 @@ namespace Project_Euler.Problems
             long fminus1 = 2;
             long f = 3;
             long total = 2;
-            long aux = 0;
+            long aux;
 
             while (true)
             {
