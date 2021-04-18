@@ -10,10 +10,7 @@ namespace NUnitTestProjectEuler
         {
         }
 
-        [Test]
-        public void Test_E0001()
-        {
-            Assert.AreEqual("233168", new E0001().Solution());
-        }
+        [Test] public void Test_E0001() { Assert.AreEqual("233168", new E0001().Solution()); }
+        [Test] public void Test_E0002() { Assert.AreEqual("4613732", new E0002().Solution()); }
     }
 }

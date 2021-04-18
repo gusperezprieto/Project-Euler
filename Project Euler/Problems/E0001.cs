@@ -26,8 +26,11 @@ namespace Project_Euler.Problems
     /// </summary>
     public sealed class E0001 : IEulerInterface
     {
-
-        static void Main()
+        /// <summary>
+        /// Solution for https://www.hackerrank.com/contests/projecteuler/challenges/euler001
+        /// </summary>
+        /// <returns></returns>
+        public static void Main()
         {
             int t = Convert.ToInt32(Console.ReadLine());
             for (int a0 = 0; a0 < t; a0++)
