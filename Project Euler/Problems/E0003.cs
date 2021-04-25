@@ -2,32 +2,32 @@
 using System.Collections.Generic;
 using System.Text;
 
-/// <summary>
-/// Solution to Euler Project Problem 3
-/// https://projecteuler.net/problem=3
-/// https://www.hackerrank.com/contests/projecteuler/challenges/euler003
-/// 
-/// By Gustavo Perez Prieto
-/// https://www.gustavoperez.dev
-/// 
-/// Input Format   
-/// First line contains T that denotes the number of test cases.This is followed by T lines, each containing an integer, N .
-/// 
-/// Constraints
-/// 1 <= T <= 10
-/// 10 <= N <= 1000000000000
-/// 
-/// Output Format
-/// 
-/// For each test case, display the largest prime factor of N. 
-/// 
-/// ----------------------
-/// 
-/// By the fundamental theorem of arithmetic, every integer n > 1 has a unique factorization as a product of prime numbers.
-/// 
-/// </summary>
 namespace Project_Euler.Problems
 {
+    /// <summary>
+    /// Solution to Euler Project Problem 3
+    /// https://projecteuler.net/problem=3
+    /// https://www.hackerrank.com/contests/projecteuler/challenges/euler003
+    /// 
+    /// By Gustavo Perez Prieto
+    /// https://www.gustavoperez.dev
+    /// 
+    /// Input Format   
+    /// First line contains T that denotes the number of test cases.This is followed by T lines, each containing an integer, N .
+    /// 
+    /// Constraints
+    /// 1 <= T <= 10
+    /// 10 <= N <= 1000000000000
+    /// 
+    /// Output Format
+    /// 
+    /// For each test case, display the largest prime factor of N. 
+    /// 
+    /// ----------------------
+    /// 
+    /// By the fundamental theorem of arithmetic, every integer n > 1 has a unique factorization as a product of prime numbers.
+    /// 
+    /// </summary>
     public sealed class E0003 : IEulerInterface
     {
         /// <summary>
@@ -95,7 +95,7 @@ namespace Project_Euler.Problems
             return response;
         }
         /// <summary>
-        /// Solution for https://projecteuler.net/problem=3
+        /// Solution for https://projecteuler.net/problem=4
         /// </summary>
         /// <returns></returns>
         public string Solution()
